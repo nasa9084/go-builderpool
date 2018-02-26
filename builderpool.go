@@ -38,7 +38,7 @@ func New() *BuilderPool {
 }
 
 func allocBuilder() interface{} {
-	return &strings.Builder
+	return &strings.Builder{}
 }
 
 // Get returns a strings.Builder from the pool.
