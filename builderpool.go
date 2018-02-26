@@ -34,6 +34,7 @@ type BuilderPool struct {
 func New() *BuilderPool {
 	bp := BuilderPool{}
 	bp.pool.New = allocBuilder
+	return &bp
 }
 
 func allocBuilder() interface{} {
