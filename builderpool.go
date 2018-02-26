@@ -31,7 +31,7 @@ type BuilderPool struct {
 }
 
 // New returns a new BuilderPool instance.
-func New() *BuidlerPool {
+func New() *BuilderPool {
 	bp := BuilderPool{}
 	bp.pool.New = allocBuilder
 }
