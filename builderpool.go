@@ -47,7 +47,7 @@ func (bp *BuilderPool) Get() *strings.Builder {
 
 // Release puts the given strings.Builder back into the pool
 // after resetting the builder.
-func (bp *BuidlerPool) Release(builder *strings.Builder) {
+func (bp *BuilderPool) Release(builder *strings.Builder) {
 	builder.Reset()
 	bp.pool.Put(builder)
 }
