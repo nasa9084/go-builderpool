@@ -1,5 +1,5 @@
 # builderpool
-[![Build Status](https://travis-ci.org/nasa9084/go-builderpool.svg?branch=master)](https://travis-ci.org/nasa9084/go-builderpool)
+[![Test](https://github.com/nasa9084/go-builderpool/actions/workflows/test.yml/badge.svg)](https://github.com/nasa9084/go-builderpool/actions/workflows/test.yml)
 [![Godoc](https://godoc.org/github.com/nasa9084/go-builderpool?status.svg)](https://godoc.org/github.com/nasa9084/go-builderpool)
 ---
 
